@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Hari Guru Nasional - Pahlawan Tanpa Tanda Jasa</title>
+    <!-- Menghubungkan Google Fonts untuk tipografi yang elegan -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Menghubungkan file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+
+    <!-- Layar Pembuka: Animasi Amplop Surat -->
+    <div id="suratOverlay" class="surat-overlay">
+        <div class="surat-bg-glow"></div>
+        <div class="envelope-wrapper" id="bukaSuratBtn" title="Klik untuk membuka surat">
+            <div class="envelope">
+                <div class="envelope-back"></div>
+                <div class="letter-preview">
+                    <span class="letter-mini-tag">25 November</span>
+                    <h3>Untuk Guruku Tercinta</h3>
+                    <p>Sebuah pesan tulus dari hati...</p>
+                </div>
+                <div class="envelope-pocket"></div>
+                <div class="envelope-flap"></div>
+                <div class="wax-seal">💌</div>
+            </div>
+            <p class="tap-hint">✨ Klik Amplop untuk Membuka Surat ✨</p>
+        </div>
+    </div>
+
+    <!-- Bagian Header & Navbar -->
+    <header class="header">
+        <div class="container navbar">
+            <a href="#" class="logo">
+                <span class="logo-icon">🎓</span>
+                <span>Hari<strong>Guru</strong></span>
+            </a>
+            <nav class="nav-links">
+                <a href="#beranda">Beranda</a>
+                <a href="#pesan">Pesan & Kesan</a>
+                <a href="#kenangan">Kenangan</a>
+                <a href="#motivasi">Motivasi</a>
+                <a href="#kirim-ucapan" class="btn-nav">Tulis Ucapan</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Bagian Utama (Hero Section) -->
+    <section id="beranda" class="hero">
+        <div class="container hero-wrapper">
+            <div class="hero-text fade-in">
+                <span class="badge">25 November • Hari Guru Nasional</span>
+                <h1>Selamat Hari Guru</h1>
+                <p class="subtitle">
+                    Terima kasih atas setiap pelita ilmu, kesabaran tanpa batas, dan ketulusan hati dalam membimbing kami meraih masa depan yang gemilang. Engkaulah pahlawan tanpa tanda jasa yang sesungguhnya.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#pesan" class="btn btn-primary">Baca Pesan & Kesan</a>
+                    <a href="#motivasi" class="btn btn-secondary">Kata Motivasi</a>
+                </div>
+            </div>
+
+            <!-- Tempat Foto (Menggunakan tag <img> tanpa ilustrasi orang) -->
+            <div class="hero-image float-anim">
+                <div class="illustration-box">
+                    <img 
+                        src="foto-guru.jpg" 
+                        alt="Foto Kenangan Bersama Guru" 
+                        class="hero-photo"
+                        onerror="this.onerror=null; this.src='https://placehold.co/600x450/EFF6FF/1E3A8A?text=Pasang+Foto+Guru+Di+Sini';"
+                    >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Utama Konten -->
+    <main class="content">
+        
+        <!-- Bagian Pesan & Kesan untuk Guru -->
+        <section id="pesan" class="section-pesan">
+            <div class="container">
+                <div class="section-title">
+                    <span class="tag">Ungkapan Hati</span>
+                    <h2>Pesan & Kesan Untuk Guruku</h2>
+                    <p>Sebuah refleksi tulus atas dedikasi dan kasih sayang yang telah diberikan di ruang kelas maupun dalam kehidupan.</p>
+                </div>
+
+                <div class="pesan-box">
+                    <div class="quote-icon">“</div>
+                    <p class="pesan-utama">
+                        Guru bukan sekadar pengajar yang menuliskan rumus di papan tulis, melainkan penuntun arah saat kami tersesat dalam ketidaktahuan. Terima kasih telah mendengarkan keluh kesah kami, memaafkan kenakalan kami, dan selalu percaya bahwa setiap murid memiliki potensi luar biasa untuk bersinar.
+                    </p>
+                    <div class="pesan-author">
+                        <div class="author-avatar">✨</div>
+                        <div>
+                            <h4>Perwakilan Seluruh Murid</h4>
+                            <span>Generasi Penerus Bangsa</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Galeri Foto Kenangan Bersama Guru -->
+        <section id="kenangan" class="section-kenangan">
+            <div class="container">
+                <div class="section-title">
+                    <span class="tag">Jejak Langkah</span>
+                    <h2>Galeri Kenangan Bersama Guru</h2>
+                    <p>Momen-momen berharga penuh tawa, bimbingan, dan kebersamaan yang tak terlupakan.</p>
+                </div>
+
+                <div class="kenangan-grid">
+                    <!-- Kenangan 1 -->
+                    <article class="kenangan-card">
+                        <div class="kenangan-img-box">
+                            <img
+                                src="foto2.jpeg"
+                                alt="Kenangan Momen Belajar di Kelas"
+                                class="kenangan-img"
+                                onerror="this.onerror=null; this.src='https://placehold.co/600x400/EFF6FF/1E3A8A?text=Foto+Kenangan+1';"
+                            >
+                        </div>
+                        <div class="kenangan-caption">
+                            <h3>Kebersamaan Hari Guru</h3>
+                            <p>Kebersamaan yang ada di saat membawakan hadiah hari guru.</p>
+                        </div>
+                    </article>
+
+                    <!-- Kenangan 2 -->
+                    <article class="kenangan-card">
+                        <div class="kenangan-img-box">
+                            <img
+                                src="foto4.jpeg"
+                                alt="Kenangan Kegiatan Sekolah"
+                                class="kenangan-img"
+                                onerror="this.onerror=null; this.src='https://placehold.co/600x400/FEF3C7/B45309?text=Foto+Kenangan+2';"
+                            >
+                        </div>
+                        <div class="kenangan-caption">
+                            <h3>Silaturahmi</h3>
+                            <p>Bersilaturahmi ke rumah guru saat hari raya Idul Fitri.</p>
+                        </div>
+                    </article>
+
+                    <!-- Kenangan 3 -->
+                    <article class="kenangan-card">
+                        <div class="kenangan-img-box">
+                            <img
+                                src="foto5.jpeg"
+                                alt="Kenangan Wisuda dan Perpisahan"
+                                class="kenangan-img"
+                                onerror="this.onerror=null; this.src='https://placehold.co/600x400/DBEAFE/0F294A?text=Foto+Kenangan+3';"
+                            >
+                        </div>
+                        <div class="kenangan-caption">
+                            <h3>Canda dan Tawa</h3>
+                            <p>Bercanda dan tawa saat melakukan sesi potret.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Kartu Kata-Kata Motivasi untuk Guru -->
+        <section id="motivasi" class="section-motivasi">
+            <div class="container">
+                <div class="section-title">
+                    <span class="tag">Apresiasi & Inspirasi</span>
+                    <h2>Kata-Kata Motivasi Untuk Guru</h2>
+                    <p>Untaian kalimat penuh makna untuk menyemangati langkah mulia para pendidik bangsa.</p>
+                </div>
+
+                <div class="card-grid">
+                    <!-- Kartu 1 -->
+                    <article class="card">
+                        <div class="card-icon">🕯️</div>
+                        <h3>Lilin yang Menerangi</h3>
+                        <p>"Guru yang baik ibarat lilin; ia menghabiskan dirinya sendiri demi menerangi jalan bagi orang lain menuju masa depan yang cerah."</p>
+                        <span class="card-tag">#PelitaIlmu</span>
+                    </article>
+
+                    <!-- Kartu 2 -->
+                    <article class="card">
+                        <div class="card-icon">🌱</div>
+                        <h3>Penanam Benih Harapan</h3>
+                        <p>"Setiap nasihat yang Bapak dan Ibu tanamkan hari ini akan tumbuh menjadi pohon kebaikan yang buahnya dipetik oleh peradaban di masa depan."</p>
+                        <span class="card-tag">#InspirasiBangsa</span>
+                    </article>
+
+                    <!-- Kartu 3 -->
+                    <article class="card">
+                        <div class="card-icon">🧭</div>
+                        <h3>Kompas Kehidupan</h3>
+                        <p>"Pendidikan bukan hanya tentang mengisi wadah yang kosong, tetapi menyalakan api rasa ingin tahu yang tak pernah padam sepanjang hayat."</p>
+                        <span class="card-tag">#PendidikHebat</span>
+                    </article>
+
+                    <!-- Kartu 4 -->
+                    <article class="card">
+                        <div class="card-icon">🏆</div>
+                        <h3>Pahlawan Sejati</h3>
+                        <p>"Di balik setiap orang hebat, dokter, insinyur, maupun pemimpin bangsa, selalu ada peran seorang guru yang sabar membimbing dari awal."</p>
+                        <span class="card-tag">#PahlawanTanpaTandaJasa</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bagian Interaktif: Tulis Pesan Spesial untuk Guru -->
+        <section id="kirim-ucapan" class="section-form">
+            <div class="container">
+                <div class="form-wrapper">
+                    <div class="form-info">
+                        <h3>Kirimkan Ucapan Spesialmu</h3>
+                        <p>Tambahkan pesan pribadi untuk guru favoritmu dan tampilkan langsung di dinding apresiasi ini.</p>
+                    </div>
+                    <form id="ucapanForm" class="ucapan-form">
+                        <div class="input-group">
+                            <input type="text" id="namaPengirim" placeholder="Nama Kamu (contoh: Andi - Kelas XII)" required>
+                            <input type="text" id="namaGuru" placeholder="Nama Guru Tujuan (contoh: Ibu Siti)" required>
+                        </div>
+                        <textarea id="isiPesan" rows="3" placeholder="Tuliskan ucapan terima kasih atau kesan terbaikmu di sini..." required></textarea>
+                        <button type="submit" class="btn btn-primary">Kirim Ucapan Sekarang</button>
+                    </form>
+                </div>
+
+                <!-- Tempat Menampilkan Ucapan yang Baru Ditambahkan -->
+                <div id="daftarUcapan" class="card-grid ucapan-baru-grid"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Bagian Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-heart">❤️</div>
+            <h2>Terima Kasih Guruku</h2>
+            <p>Jasamu abadi dalam setiap langkah dan keberhasilan kami. Selamat Hari Guru Nasional!</p>
+            <div class="footer-bottom">
+                <span>Dibuat dengan penuh rasa hormat dan apresiasi &copy; 2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script Interaktivitas Buka Surat & Form Ucapan -->
+    <script>
+        // Logika Membuka Amplop Surat
+        const suratOverlay = document.getElementById('suratOverlay');
+        const bukaSuratBtn = document.getElementById('bukaSuratBtn');
+
+        bukaSuratBtn.addEventListener('click', function() {
+            // Jalankan animasi amplop terbuka
+            bukaSuratBtn.classList.add('open');
+            
+            // Hilangkan overlay setelah animasi amplop selesai
+            setTimeout(() => {
+                suratOverlay.classList.add('hidden');
+                document.body.classList.remove('locked');
+            }, 1100);
+        });
+
+        // Logika Form Ucapan
+        const form = document.getElementById('ucapanForm');
+        const daftarUcapan = document.getElementById('daftarUcapan');
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const pengirim = document.getElementById('namaPengirim').value.trim();
+            const guru = document.getElementById('namaGuru').value.trim();
+            const pesan = document.getElementById('isiPesan').value.trim();
+
+            if (pengirim && guru && pesan) {
+                const kartuBaru = document.createElement('article');
+                kartuBaru.className = 'card fade-in';
+                kartuBaru.innerHTML = `
+                    <div class="card-icon">💌</div>
+                    <h3>Untuk: ${guru}</h3>
+                    <p>"${pesan}"</p>
+                    <span class="card-tag">Dari: ${pengirim}</span>
+                `;
+
+                daftarUcapan.prepend(kartuBaru);
+                form.reset();
+            }
+        });
+    </script>
+
+</body>
+</html>
